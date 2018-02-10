@@ -1,0 +1,130 @@
+<!doctype html>
+  <html language="pt-br">
+  <meta charset utf-8>
+
+<head>
+	<script src="js/javapadrao.js" type="text/javascript"></script>
+    <script src="js/javablog.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="css/estilopadrao.css">		
+    <link rel="stylesheet" type="text/css" href="css/estiloblog.css">
+    <link rel="icon" type="image/png" href="imagens\blog.png" />
+    <title>Blog</title>
+</head>
+
+<body>
+<!--Inicio status bar-->
+<img src="imagens/logo1.png" class="icone">
+<fieldset class="statusbar" id="statusbar">
+
+
+<fieldset class="menu"><a href="index.html">Início</a></fieldset>
+<fieldset class="menu"><a href="loja.html">Loja</a></fieldset>
+<fieldset class="menu"><a href="chatpublico.html">Chat-Público</a></fieldset>
+<fieldset class="menuselect"><a href="blog.html">Blog</a></fieldset>
+<fieldset class="menu"><a href="anuncie.html">Anuncie</a></fieldset>
+<fieldset class="menu"><a href="faleconosco.html">Fale Conosco</a></fieldset>
+
+
+<!--Area final-->
+
+<img src="imagens/perfilV.png" width="35px;" style="float:right;" id="janelalogon" border="1px" onclick="menu()">
+
+<a href="#openModal" class="openModal"><img src="imagens/loginicon.png" width="35px;" id="janelalogin" style="right:5px;position:absolute;"></a>
+	
+</fieldset>
+
+<div class="opmudarfundo">
+<button onclick="fundo3()" id="btnmudar3" class="mudafundo"style="opacity:0.9;background-color:skyblue;">3</button>
+<button onclick="fundo2()" id="btnmudar2" class="mudafundo"style="opacity:0.3;background-color:#8DEEEE;">2</button>
+<button onclick="fundo1()" id="btnmudar1" class="mudafundo"style="opacity:0.3;background-color:#B2DFEE;">1</button>
+</div>
+<br><br><br>
+
+
+<fieldset id="menulogon">
+	<fieldset id="opcoes"><label class="opcao" id="opPerfil">Perfil</label></fieldset>
+	<fieldset id="opcoes"><label class="opcao" id="opamigos">Amigos</label></fieldset>
+	<fieldset id="opcoes"><label class="opcao" id="opconfig">Configurações</label></fieldset>
+	<fieldset id="opcoes" onclick="opsair()"><label class="opcao" onclick="opsair()">Sair</label></fieldset>
+</fieldset>
+
+
+
+<!--Fim status bar-->
+<fieldset class="lateral"><center>
+<img src="imagens/propaganda10.gif" title="Anúncio" class="propagandadireita" id="anuncio2">
+
+<fieldset class="fieldsociais">
+	<img src="imagens/youtube.png" class="sociais" border="0">
+	<img src="imagens/facebook.png" class="sociais" border="0">
+	<img src="imagens/instagram.png" class="sociais" border="0">
+	<img src="imagens/twitter.png" class="sociais" border="0">
+</fieldset>
+
+<img src="imagens/propaganda11.gif" title="Anúncio" class="propagandadireita" id="anuncio2">
+</fieldset></center>
+
+	<fieldset class="corpo">
+<img src="imagens/propaganda9.gif" title="Anúncio" class="propagandacima" id="anuncio1">
+<br>
+
+
+
+		<fieldset class="post1">
+			<img src="imagens/post1.png" class="miniatura1" border="3">
+			<center><h1 class="title1">Saiba tudo sobre o inovador Windows 10</h1></center>
+			<p class="p">
+			O Windows 10 é um sistema operacional de computador pessoal desenvolvido e lançado pela Microsoft. Foi lançado em 29 de julho de 2015. É a primeira versão do Windows que recebe atualizações de recursos contínuos.
+			</p>
+			<fieldset class="vereditofieldset">
+			<img src="imagens/deslike.png" id="deslike1" onclick="deslike1()"  class="veredito">
+			<img src="imagens/like.png" id="like1" onclick="like1()" class="veredito">
+			</fieldset>
+		</fieldset>
+		
+				<fieldset class="post1">
+			<img src="imagens/post2.png" class="miniatura1" border="3">
+			<center><h1 class="title1">Você conhece o MAC OS?</h1></center>
+			<p class="p">
+			Foi desenvolvidos pela Apple Inc. inclui os sistemas operacionais baseados na interface gráfica do usuário que projetou para uso com sua série Macintosh de computadores pessoais desde 1984, bem como o software do sistema relacionado , uma vez criado para terceiros compatíveis sistemas.
+			</p>
+			<fieldset class="vereditofieldset">
+			<img src="imagens/deslike.png" id="deslike1" onclick="deslike1()"  class="veredito">
+			<img src="imagens/like.png" id="like1" onclick="like1()" class="veredito">
+			</fieldset>
+		</fieldset>
+	
+	
+	</fieldset>
+
+	
+
+<footer onclick="resolucao()">
+
+	<a href="#"><img src="imagens/rodape1.png" class="rodape"></a>
+	<a href="#"><img src="imagens/rodape2.png" class="rodape"></a>
+	<a href="https://www.youtube.com/channel/UCuTXkXKtqmiRjRsEjIHhzWg?view_as=subscriber"><img src="imagens/rodape3.png" class="rodape"></a>
+	<a href="https://www.facebook.com/profile.php?id=100022466654977"><img src="imagens/rodape4.png" class="rodape"></a>
+	<span style="color:white;opacity:0.4;"><marquee behavior=slide direction=right scrollDelay=100>Resolução recomendada : 1366 x 768 - Página : 100%</marquee></span>
+	
+	
+	<h2 style="color:silver;position:absolute;bottom:-5px;right:2px;">by Gustavo Ferreira Rocha - Beta 1.1</h2>
+</footer>
+
+<div id="openModal" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<h2>Entrar</h2>
+		<label>E-mail:</label><input type="email" size="25" id="email" class="imput"></input><br><br>
+		<label>Senha:</label><input type="password" size="25" id="senha" class="imput"></input><br><br>
+		
+		<center><button onclick="login()" id="btnentrar" class="buttom">Login</button></center>
+	</div>
+</div>
+
+
+</body>
+
+
+
+</html>

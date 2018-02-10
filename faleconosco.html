@@ -1,0 +1,118 @@
+<!doctype html>
+  <html language="pt-br">
+  <meta charset utf-8>
+
+<head>
+	<script src="js/javapadrao.js" type="text/javascript"></script>
+    <script src="js/javafaleconosco.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="css/estilopadrao.css">		
+    <link rel="stylesheet" type="text/css" href="css/estilofaleconosco.css">
+    <link rel="icon" type="image/png" href="imagens\faleconosco.png" />
+    <title>Fale Conosco</title>
+</head>
+<body>
+<!--Inicio status bar-->
+<img src="imagens/logo1.png" class="icone">
+<fieldset class="statusbar" id="statusbar">
+
+
+<fieldset class="menu"><a href="index.html">Início</a></fieldset>
+<fieldset class="menu"><a href="loja.html">Loja</a></fieldset>
+<fieldset class="menu"><a href="chatpublico.html">Chat-Público</a></fieldset>
+<fieldset class="menu"><a href="blog.html">Blog</a></fieldset>
+<fieldset class="menu"><a href="anuncie.html">Anuncie</a></fieldset>
+<fieldset class="menuselect"><a href="faleconosco.html">Fale Conosco</a></fieldset>
+
+
+<!--Area final-->
+
+<img src="imagens/perfilV.png" width="35px;" style="float:right;" id="janelalogon" border="1px" onclick="menu()">
+
+<a href="#openModal" class="openModal"><img src="imagens/loginicon.png" width="35px;" id="janelalogin" style="right:5px;position:absolute;"></a>
+	
+</fieldset>
+
+<div class="opmudarfundo">
+<button onclick="fundo3()" id="btnmudar3" class="mudafundo" style="opacity:0.3;background-color:skyblue;">3</button>
+<button onclick="fundo2()" id="btnmudar2" class="mudafundo" style="opacity:0.9;background-color:#8DEEEE;">2</button>
+<button onclick="fundo1()" id="btnmudar1" class="mudafundo" style="opacity:0.3;background-color:#B2DFEE;">1</button>
+</div>
+<br><br><br>
+
+
+<fieldset id="menulogon">
+	<fieldset id="opcoes"><label class="opcao" id="opPerfil">Perfil</label></fieldset>
+	<fieldset id="opcoes"><label class="opcao" id="opamigos">Amigos</label></fieldset>
+	<fieldset id="opcoes"><label class="opcao" id="opconfig">Configurações</label></fieldset>
+	<fieldset id="opcoes" onclick="opsair()"><label class="opcao" onclick="opsair()">Sair</label></fieldset>
+</fieldset>
+
+
+
+<!--Fim status bar-->
+<img src="imagens/propaganda8.gif" title="Anúncio" class="propagandaesq" id="anuncio1">
+<img src="imagens/propaganda7.gif" title="Anúncio" class="propagandadir" id="anuncio2">
+
+
+
+<center>
+	<fieldset class="corpo">
+	<fieldset style="float:right;border-width:0px;"><center>
+		<img src="imagens/faleconosco2.png" class="faleconosco2" border="2">
+		<h2 class="contatos">socialtech.enterprise@gmail.com</h2>
+		<h2 class="contatos">socialtech.contact@gmail.com</h2>
+		<h2 class="contatos">0800-4846-4648</h2>
+		<h2 class="contatos">(11) 4846-4648</h2>
+		<br>
+		<label>Baixe a fonte do site:</label>
+		<a href="https://mega.nz/#!7c9yySpQ!mPXLDE9FPfgfVlZ0QSQ6dmqZ7Gg8K7Nk8igdFMVZ_ew" class="font">CooperBlack</a>
+		
+	</center></fieldset>
+	
+		<fieldset id="fieldmsg">
+		<center>
+		<h2>Envie um email para nossa equipe:</h2>
+		<input type="email" placeholder="Informe seu email" size="26" id="email"></input>
+		<button onclick="emailenviado()" class="botao1">OK</button>
+		<h2 id="erroemail" style="opacity:0;font-size:10px;margin-top:2px;font-family:arial;color:red;float:left;margin-left:5px;">Email inválido</h2>
+		<br><br>
+		<textarea id="msg" maxlength="300" onkeypress="limite()"></textarea>
+		<br>
+		<h2 id="limitemsg" style="opacity:0;font-size:10px;margin-bottom:-5px;font-family:arial;">Atenção ao limite de 300 caracteres!</h2>
+		<br>
+		<button onclick="erro()" class="botao2" id="btn2">Enviar</button>
+		</center>
+		</fieldset>
+		
+	</fieldset>
+</center>
+		
+
+<footer onclick="resolucao()">
+
+	<a href="#"><img src="imagens/rodape1.png" class="rodape"></a>
+	<a href="#"><img src="imagens/rodape2.png" class="rodape"></a>
+	<a href="https://www.youtube.com/channel/UCuTXkXKtqmiRjRsEjIHhzWg?view_as=subscriber"><img src="imagens/rodape3.png" class="rodape"></a>
+	<a href="https://www.facebook.com/profile.php?id=100022466654977"><img src="imagens/rodape4.png" class="rodape"></a>
+	<span style="color:white;opacity:0.4;"><marquee behavior=slide direction=right scrollDelay=100>Resolução recomendada : 1366 x 768 - Página : 100%</marquee></span>
+	
+	
+	<h2 style="color:silver;position:absolute;bottom:-5px;right:2px;">by Gustavo Ferreira Rocha - Beta 1.1</h2>
+</footer>
+
+<div id="openModal" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<h2>Entrar</h2>
+		<label>E-mail:</label><input type="email" size="25" id="email" class="imput"></input><br><br>
+		<label>Senha:</label><input type="password" size="25" id="senha" class="imput"></input><br><br>
+		
+		<center><button onclick="login()" id="btnentrar" class="buttom">Login</button></center>
+	</div>
+</div>
+
+</body>
+
+
+
+</html>

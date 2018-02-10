@@ -1,0 +1,137 @@
+<!doctype html>
+  <html language="pt-br">
+  <meta charset utf-8>
+
+<head>
+	<script src="js/javapadrao.js" type="text/javascript"></script>
+    <script src="js/javaanuncie.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="css/estilopadrao.css">		
+    <link rel="stylesheet" type="text/css" href="css/estiloanuncie.css">
+    <link rel="icon" type="image/png" href="imagens\anuncie.png" />
+    <title>Anuncie Aqui</title>
+</head>
+
+<body>
+<!--Inicio status bar-->
+<img src="imagens/logo1.png" class="icone">
+<fieldset class="statusbar" id="statusbar">
+
+
+<fieldset class="menu"><a href="index.html">Início</a></fieldset>
+<fieldset class="menu"><a href="loja.html">Loja</a></fieldset>
+<fieldset class="menu"><a href="chatpublico.html">Chat-Público</a></fieldset>
+<fieldset class="menu"><a href="blog.html">Blog</a></fieldset>
+<fieldset class="menuselect"><a href="anuncie.html">Anuncie</a></fieldset>
+<fieldset class="menu"><a href="faleconosco.html">Fale Conosco</a></fieldset>
+
+
+<!--Area final-->
+
+<img src="imagens/perfilV.png" width="35px;" style="float:right;" id="janelalogon" border="1px" onclick="menu()">
+
+<a href="#openModal" class="openModal"><img src="imagens/loginicon.png" width="35px;" id="janelalogin" style="right:5px;position:absolute;"></a>
+
+</fieldset>
+
+<div class="opmudarfundo">
+<button onclick="fundo3()" id="btnmudar3" class="mudafundo" title="azul" style="opacity:0.3;background-color:skyblue;">3</button>
+<button onclick="fundo2()" id="btnmudar2" class="mudafundo" title="cinza" style="opacity:0.9;background-color:#8DEEEE;">2</button>
+<button onclick="fundo1()" id="btnmudar1" class="mudafundo" title="amarelo" style="opacity:0.3;background-color:#B2DFEE;">1</button>
+</div>
+<br><br><br>
+
+
+
+
+<fieldset id="menulogon">
+	<fieldset id="opcoes"><label class="opcao" id="opPerfil">Perfil</label></fieldset>
+	<fieldset id="opcoes"><label class="opcao" id="opamigos">Amigos</label></fieldset>
+	<fieldset id="opcoes"><label class="opcao" id="opconfig">Configurações</label></fieldset>
+	<fieldset id="opcoes" onclick="opsair()"><label class="opcao" onclick="opsair()">Sair</label></fieldset>
+</fieldset>
+
+
+
+<!--Fim status bar-->
+<img src="imagens/propaganda8.gif" title="Anúncio" class="propagandaesq" id="anuncio1">
+<img src="imagens/propaganda7.gif" title="Anúncio" class="propagandadir" id="anuncio2">
+
+	
+<center>
+	<fieldset class="corpo" id="corpo">
+		<fieldset class="esquerda">
+		<h1 id="nameproduto">ex: Mesa</h1>
+		<center><img src="imagens/iconeproduto.png" id="fotoproduto"></center>
+		<center><input type="file" style="opacity:1;" class="buttom" accept="image/png, image/jpeg, image/jpg"></input>
+		</center>
+		</fieldset>
+		<!--area de opções-->
+		<fieldset class="direita">
+		<h1 id="precoExibido" style="color:red;background-color:yellow;border-radius:5px;width:200px;margin-top:0px;font-size:30px;">R$ 0.00</h1>
+		
+		<fieldset style="margin-top:30px;" class="opcoes">
+			<legend>Nome</legend>
+			<input type="text" size="20" id="onome" class="imput" maxlength="20"></input>
+			<button  onclick="nomeproduto()" class="buttom">Confirmar</button>
+		</fieldset>
+			<br>
+		<fieldset class="opcoes">
+			<legend>Tipo</legend>
+			<label>Opcional:</label><br><br>
+			<button onclick="tipo1()" class="buttom" style="background-color:skyblue;color:black;">Informática</button>
+			<button onclick="tipo2()" class="buttom" style="background-color:orange;color:black;">Decoração</button>
+			<button onclick="tipo3()" class="buttom" style="background-color:yellow;color:black;">Acessórios</button>
+			<br><br>
+			<button onclick="tipo4()" class="buttom" style="background-color:cyan;color:black;">Eletrônicos</button>
+			<button onclick="tipo5()" class="buttom" style="background-color:limegreen;color:black;">Esportes</button>
+			<button onclick="tipo6()" class="buttom" style="background-color:brown;color:black;">Móveis</button>
+			
+		</fieldset>
+			<br>
+		<fieldset class="opcoes">
+			<legend>Preço</legend>
+			<label>R$</label>
+			<input type="text" id="valor" maxlength="8" placeholder="0,00" size="30" class="imputUnidade"></input>
+			<button  onclick="mandarvalor()" class="buttom">Confirmar</button>
+		</fieldset>
+			<br>
+		<fieldset class="opcoes">
+			<legend>Quantidade</legend>
+			<label>Unidade:</label>
+			<input type="number" value="1" class="imputUnidade" min="1" max="10"></input>
+		</fieldset>
+		<br>
+		<button class="buttom" onclick="venda()" id="btnvenda">Anunciar Venda</button>
+		</fieldset>
+	</fieldset>
+</center>	
+	
+
+<footer onclick="resolucao()">
+
+	<a href="#"><img src="imagens/rodape1.png" class="rodape"></a>
+	<a href="#"><img src="imagens/rodape2.png" class="rodape"></a>
+	<a href="https://www.youtube.com/channel/UCuTXkXKtqmiRjRsEjIHhzWg?view_as=subscriber"><img src="imagens/rodape3.png" class="rodape"></a>
+	<a href="https://www.facebook.com/profile.php?id=100022466654977"><img src="imagens/rodape4.png" class="rodape"></a>
+	<span style="color:white;opacity:0.4;"><marquee behavior=slide direction=right scrollDelay=100>Resolução recomendada : 1366 x 768 - Página : 100%</marquee></span>
+	
+	
+	<h2 style="color:silver;position:absolute;bottom:-5px;right:2px;">by Gustavo Ferreira Rocha - Beta 1.1</h2>
+</footer>
+
+<div id="openModal" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<h2>Entrar</h2>
+		<label>E-mail:</label><input type="email" size="25" id="email" class="imput"></input><br><br>
+		<label>Senha:</label><input type="password" size="25" id="senha" class="imput"></input><br><br>
+		
+		<center><button onclick="login()" id="btnentrar" class="buttom">Login</button></center>
+	</div>
+</div>
+
+</body>
+
+
+
+</html>

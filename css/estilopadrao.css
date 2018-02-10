@@ -1,0 +1,200 @@
+
+#janelalogon{position:absolute;top:4px;left:-9999px;border-radius:100px;width:40px;height:40px;cursor:pointer;border-color:black;}
+#menulogon{position:fixed;top:-5px;left:-9999px;background-color:lightcyan;border-top:none;border-radius:5px;border-color:skyblue;width:120px;padding:0px;padding-top:6px;}
+#opcoes{height:15px;width:115px;background-color:PaleTurquoise;border:none;margin:0px;margin-top:1px;cursor:pointer;padding:2px;}
+	#opcoes:hover{background-color:#ADD8E6;}
+.opcao{font-size:15px;cursor:pointer;margin-left:5px;color:#2F4F4F;}	
+
+.statusbar{
+			background-color: rgba(108, 166, 205, 0.6);
+			border-color:black;
+			border-radius:6px;
+			border-top-width:0px;
+			border-bottom-width:2px;
+			position:fixed;
+			top:-2px;
+			left:330px;
+			right:330px;
+			padding:5px;
+			padding-top:6px;
+			}
+.statusbar:hover{box-shadow: 1px 1px 2px #696969;}			
+			
+			.icone{width:160px;height:40px;float:left;margin:0px;margin-top:5px;}
+			.mudafundo{border-radius:7px;float:right;background-color:white;border-color:black;font-family:Cooper Black;color:black;border-top-width:0px;}
+	.opmudarfundo{position:fixed;top:-4px;right:0px;float:right;}
+.login{width:100px;float:right;}
+
+	.entrar{
+		border-style:ridge;
+		border-color:white;
+		border-width:3px;
+		float:right;
+		margin:1px;
+		padding:5px;	
+		font-size:19px;
+		background-color:SteelBlue;
+		border-radius:5px;
+		font-family:Cooper Black;}
+
+
+		
+	.menu{
+		border-style:outset;
+		border-color:white;
+		border-width:2.5px;
+		border:none;
+		float:left;
+		margin:1px;
+		padding:5px;	
+		font-size:18px;
+		background-color:SteelBlue;
+		border-radius:5px;
+		font-family:Cooper Black;
+		background: -moz-linear-gradient(#00B2EE,SteelBlue);
+		background: -webkit-linear-gradient(#00B2EE,SteelBlue);
+		background: -o-linear-gradient(#00B2EE,SteelBlue);
+		box-shadow: 2px 2px 3px #104E8B;
+				}
+		.menu:hover{font-size:21px;}
+		.menu a:hover{color:#d3ffff;}
+		
+	.menuselect{
+		border-style:ridge;
+		border-color:black;
+		border-width:2px;
+		float:left;
+		margin:1px;
+		padding:4px;	
+		font-size:20px;
+		background-color:#7AC5CD;
+		border-radius:6px;
+		font-family:Cooper Black;
+		background: -moz-linear-gradient(#52d6ea,#51cfe2,#9ae8f4);
+		background: -webkit-linear-gradient(#52d6ea,#51cfe2,#9ae8f4);
+		background: -o-linear-gradient(#52d6ea,#51cfe2,#9ae8f4);
+		box-shadow: 2px 2px 3px #696969;
+		}
+		.menuselect:hover{border-style:dashed;}
+		.menuselect a{color:white;}
+		.menuselect a:hover{color:#4682B4;}
+	.inicio{margin-left:300px;}		
+
+/*----fim da status bar----*/
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(10,10, 10,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 600ms ease-in;
+	-moz-transition: opacity 600ms ease-in;
+	transition: opacity 600ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	cursor: url(imagens/ponteiro.cur), default;
+	font-size:15px;
+	width: 275px;
+	position: relative;
+	margin: 10% auto;
+	padding: 3px 3px 15px 15px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#F0FFFF, #00B2EE);
+	background: -webkit-linear-gradient(#F0FFFF,#00B2EE);
+	background: -o-linear-gradient(#F0FFFF,##00B2EE);
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 3px 3px 3px #000;
+}
+
+.close {
+	background: #000080;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 2px 2px 3px #000;
+}
+
+.close:hover { background:#0000FF;}
+
+.rodape{width:20px;float:left;margin-right:15px;margin-top:1px;}
+
+
+
+/*--Fim da janela--*/
+
+.imput{border-radius:8px;margin-left:3px;border-color:Gold;background-color:#FFFACD;border-width:2px;border-style:outset;padding-left:4px;margin-bottom:-5px;}
+	.imputUnidade{width:60px;border-radius:8px;margin-left:3px;border-color:skyblue;background-color:cyan;border-width:2px;border-style:outset;padding-left:4px;margin-bottom:-5px;}
+
+.buttom{border-width:0px;border-radius:4px;color:white;background-color:#1E90FF;padding:5px;cursor:pointer;font-size:15px;}
+	.buttom:hover {background-color:#009ACD;border-width:1px;padding:4px;border-color:#0059af;}
+body{background-color:#B2DFEE;background-repeat:no-repeat;font-size:10px;cursor: url(imagens/ponteiro.cur), auto;}
+h1{}
+img{}
+label{border-color:black;margin:0px;}
+a{text-decoration:none;}
+a:link {color:white;}
+a:visited{color:white;}
+a:active{}
+footer{background-color:black;color:white;border-radius:5px;font-size:6px;padding:2px;position:fixed;bottom:0px;left:0px;right:0px;height:20px;}
+
+
+.footer{background-color:black;color:white;border-radius:5px;}
+
+
+	.corpo{
+	   color:black;		
+	   width:700px;
+	   margin-left:60px;
+	   margin-right:60px;
+	   margin-bottom:50px;
+	   border:none;
+	   background-color:white;
+	   }	
+	   
+.propagandaesq{cursor:pointer;float:left;background-color:black;width:80px;height:400px;margin-top:50px;padding:0px;border-color:black;position:fixed;top:65px;left:20px;}
+.propagandadir{cursor:pointer;float:right;background-color:black;width:80px;height:400px;margin-top:50px;padding:0px;border-color:black;position:fixed;top:65px;right:20px;}
+
+
+::-webkit-scrollbar-track {
+    background-color: #4682B4;
+	
+}
+::-webkit-scrollbar {
+    width: 9px;
+    background: #F4F4F4;
+	}
+
+::-webkit-scrollbar-thumb {
+    background:#00BFFF;
+	border-radius:100px;
+		background: -moz-linear-gradient(#104E8B,#79CDCD,#79CDCD,#104E8B);
+		background: -webkit-linear-gradient(#104E8B,#79CDCD,#79CDCD,#104E8B);
+		background: -o-linear-gradient(#104E8B,#79CDCD,#79CDCD,#104E8B);	
+}
+
+::selection { background: #1f6a8f; color: #fff;}

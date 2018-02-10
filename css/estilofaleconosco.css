@@ -1,0 +1,35 @@
+.font:active{font-size:17px;margin:-5px;color:yellow;}
+.send{width:150px;height:50px;}
+.faleconosco2{border-color:black;border-radius:150px;margin-top:10px;}
+.email{font-size:15px;}
+.contatos{font-size:15px;font-family:arial;background-color:#3ae0d7;border-radius:8px;padding:4px;box-shadow: 1px 1px 1px black;cursor:pointer;}
+	.contatos:hover{background-color:#58fcf2;}
+#fieldmsg{background-color:#00688B;width:270px;border-color:black;border-radius:4px;height:390px;margin-top:10px;float:left;}
+#msg{ width: 270px; height: 240px; resize: none;font-family:Arial;color:white;font-size:18px;background-color:black;float:left;border:none;
+		border-radius:10px;padding:5px;
+	}
+
+	
+.botao1{font-family:Cooper Black;background-color:#43CD80;border:none;color:white;font-size:17px;border-radius:7px;cursor:pointer;margin-left:20px;}
+.botao2{font-family:Cooper Black;background-color:#00F5FF;border:none;color:white;font-size:25px;border-radius:7px;cursor:pointer;box-shadow: 1px 1px 1px black;}
+#email{float:left;padding:3px;border-radius:8px;border:none;padding-left:5px;}
+
+
+
+
+
+body{background-color:#00868B;}
+.statusbar{background-color:rgba(59, 96, 96, 0.6);}
+
+	.corpo{
+	   color:black;		
+	   margin-top:70px;
+	   width:700px;
+	   margin-left:50px;
+	   margin-right:50px;
+	   margin-bottom:50px;
+	   border-radius:10px;
+	   border:none;
+	   background-color:#20B2AA;
+	   box-shadow: 2px 2px 3px black;
+	   }	

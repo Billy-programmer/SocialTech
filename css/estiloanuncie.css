@@ -1,0 +1,31 @@
+#areaproduto{width:400px;background-color:salmon;}
+#nameproduto{opacity:0.4;margin:2px;text-align:center;font-size:23px;color:white;background-color:#1E90FF;border-radius:6px;
+				text-shadow: 1px 0px 0px black, -1px 0px 0px black, 0px 1px 0px black, 0px -1px 0px black;}
+#fotoproduto{border-style:solid;border-radius:4px;width:340px;height:340px;background-color:white;float:left;border-color:#1E90FF;}
+	#fotoproduto:hover{border-style:dotted;}
+	#adicionar{width:300px;height:300px;opacity:0.1;}
+	#adicionar:hover{opacity:0.6;}
+
+.opcoes{border-radius:6px;border-color:limegreen;width:300px;background-color:#8fe200;box-shadow: 1px 1px 3px black;}
+		.opcoes:hover{background-color:#a2ff02;width:303px;box-shadow: 1px 1px 6px black;}
+.visto{width:20px;height:20px;}
+.tipos{border-color:white;}
+.esquerda{margin:0px;width:350px;padding:0px;float:left;border:none;}
+.direita{margin:0px;width:350px;padding:0px;padding-top:20px;float:right;border:none;}
+
+body{background-color:#7FFFD4;}
+.statusbar{background-color:#66CDAA;}
+
+	.corpo{
+		font-family:Cooper Black;
+	   color:black;		
+	   margin-top:50px;
+	   width:730px;
+	   margin-left:60px;
+	   margin-right:60px;
+	   margin-bottom:50px;
+	   border-radius:5px;
+	   border-color:black;
+	   background-color:#C0FF3E;
+	   padding-left:15px;
+	   }	

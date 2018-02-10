@@ -1,0 +1,50 @@
+
+
+
+.slides{margin:2px;}
+
+.pedaçowel{width:600px;border:none;}
+.welcome{margin-top:20px;border-color:#2F4F4F; width:820px;height:420px;border-radius:20px;border-style:double;border-width:5px;margin-bottom:0px;}
+
+
+.fieldsetprodutos{
+					float:left;
+					border:none;
+					padding:2px;
+					width:240px;
+					height:420px;
+					background-color:white;
+					margin-left:5px;
+					margin-right:5px;
+					margin-bottom:10px;
+					border-radius:10px;
+					}
+					
+	.fieldsetprodutos:hover{background-color:#F0FFFF;}				
+					
+	.juros{font-size:12px;margin-top:-12px;font-family:arial;}				
+	.cards:hover{width:170px;margin:-2px;}
+	
+.produtos{width:220px;border:none;border-radius:5px;margin:0px;background:none;margin-bottom:10px;}
+	.produtos:hover{}
+.text{text-align:center;margin-top:-5px;font-size:20px;font-family:Cooper Black;}
+.text1{margin-bottom:5px;text-align:center;margin-top:2px;color:#696969;font-size:15px;height:35px;max-width: 30ch;overflow: hidden;text-overflow: ellipsis; white-space: normal;}
+.comprar{border-width:0px;background-color:#00BFFF;border-radius:4px;margin-top:15px;font-size:20px;color:white;}
+.comprar:hover{background-color:#FFA500;cursor:pointer;border-radius:5px;}		
+		
+	.corpo{
+	background:none;
+	   color:black;		
+	   width:770px;
+	   margin-top:30px;
+	   margin-left:60px;
+	   margin-right:60px;
+	   margin-bottom:-20px;
+	   border:none;
+	   background-color:none;
+	   }
+	#part1{margin-bottom:-40px;}
+		#partfim{margin-bottom:60px;}
+
+body{background-color:#B2DFEE;}
+		

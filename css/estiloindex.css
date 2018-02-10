@@ -1,0 +1,41 @@
+
+.pedaçowel{width:600px;border:none;}
+.welcome{margin-top:40px;border-color:black;width:780px;border-radius:20px;border-style:outset;border-width:2px;}
+.pedaço{background-color:white;margin-bottom:8px;width:700px;margin-left:60px;margin-right:60px;border:none;border-radius:7px;color:black;font-family:Cooper Black;}
+.pedaço:hover{background-color:#BFEFFF;}
+
+
+
+
+/*-- Produtos Loja --*/
+.fieldsetprodutos{
+					float:left;
+					border:none;
+					padding:2px;
+					width:218px;
+					height:360px;
+					background-color:white;
+					margin-left:5px;
+					margin-right:5px;
+					margin-bottom:10px;
+					border-radius:10px;
+					}
+					
+	.fieldsetprodutos:hover{background-color:#F0FFFF;}				
+					
+	.juros{font-size:12px;margin-top:-12px;font-family:arial;}				
+	.cards:hover{width:170px;margin:-2px;}
+	
+.produtos{width:160px;border:none;border-radius:5px;margin:0px;background:none;margin-bottom:10px;}
+	.produtos:hover{}
+.text{text-align:center;margin-top:-5px;font-size:20px;font-family:Cooper Black;}
+.text1{margin-bottom:5px;text-align:center;margin-top:2px;color:#696969;font-size:15px;height:35px;max-width: 30ch;overflow: hidden;text-overflow: ellipsis; white-space: normal;}
+.comprar{border-width:0px;background-color:#00BFFF;border-radius:4px;margin-top:15px;font-size:20px;color:white;}
+.comprar:hover{background-color:#FFA500;cursor:pointer;border-radius:5px;}
+
+/*--PostBlob--*/
+.post1{padding:0px;padding-right:50px;background-color:SteelBlue;border-radius:5px;border-style:output;border-color:silver;font-size:12px;}
+.miniatura1{margin:0px;width:200px;height:200px;margin-right:100px;float:left;border-color:Aquamarine;border-radius:50px;border-style:dashed;}
+.title1{text-align:center;color:DarkTurquoise;text-shadow: 1px 0px 0px black, -1px 0px 0px black, 0px 1px 0px black, 0px -1px 0px black;}
+.p{text-align:center;}
+.veredito{float:right;width:20px;margin:3px;}

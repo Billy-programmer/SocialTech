@@ -1,0 +1,95 @@
+
+
+#emojis{width:193px;height:55px;position:absolute;bottom:105px;left:-9999px;background-color:white;border-color:black;border-style:dashed;padding:3px;padding-left:15px;}
+#fecharemoji{float:left;margin:0px;border-radius:100px;position:fixed;bottom:113px;left:-9999px;font-size:20px;border-color:black;cursor:pointer;}
+
+.edit{width:30px;margin-right:5px;;margin-left:-42px;opacity:0.6;float:right;cursor:pointer;}
+
+.perfilia{opacity:0;border-radius:100px;width:25px;float:left;}
+.btnenviar{width:30px;margin:0px;float:right;cursor:not-allowed;}
+
+.msg{ width: 210px; height:100px; resize: none;font-family:arial black;color:black;font-size:14px;background-color:pink;border-color:blue;margin:0px;
+overflow: hidden;}
+
+
+.areadechat2{border-width:3px;border-style:outset;padding-top:10px;
+			width:250px;height:110px;background-color:#1E90FF;border-color:black;margin-right:0px;margin-left:8px;float:left;border-radius:3px;border:none;}
+
+.areadechat{border-width:3px;border-style:solid;border-color:limegreen;border-radius:3px;
+			width:250px;height:312px;background-color:LightCyan;float:left;margin-left:8px;border:none;}
+
+			
+.organizer{padding:0px;margin:0px;border:none;}			
+			
+			
+			
+.individuo{font-size:13px;color:black;border-radius:10px;padding:3px;max-width: 20ch;float:left;background-color:skyblue;margin:3px;margin-left:-2px;}			
+.individuor{opacity:0;font-size:13px;color:black;border-radius:10px;padding:3px;max-width: 20ch;float:left;background-color:skyblue;margin:3px;margin-left:-2px;}				
+					  
+.voce{opacity:0;font-size:13px;color:black;border-radius:10px;padding:3px;padding-left:7px;max-width: 20ch;background-color:#7FFFD4;margin:3px;float:right;}	  
+		  
+	  
+.enviarbtn{width:100px;height:50px;opacity:1;background-color:blue;color:skyblue;}	  
+.enviar{width:100px;}
+.date{float:right;margin-right:10px;margin-top:-9px;font-family:arial;font-size:10px;opacity:0;}
+
+.pessoas{float:left;margin-right:0px;width:265px;padding:0px;height:444px;border-color:black;
+		background: #FFFF00;
+		background: -moz-linear-gradient(#FFFFFF ,#4682B4);
+		background: -webkit-linear-gradient(#FFFFFF,#4682B4);
+		background: -o-linear-gradient(#FFFFFF,#4682B4);
+
+
+}
+.online{margin:0px;height:40px;background-color:#40E0D0;margin-bottom:0px;margin-top:1px;border-width:0px;}
+	.online:hover{background-color:#44f4e3;height:50px;width:250px;margin:-10px;border-radius:8px;cursor:pointer;border-width:3px;border-color:darkblue;border-style:dashed;margin-top:0px;margin-bottom:0px;}
+		.online:hover .foto{width:55px;margin-right:25px;}
+		.online:hover .minhaimg{width:55px;height:55px;border-color:limegreen;margin-right:15px;}
+		.online:hover #meunome{width:80px;}
+	.foto{float:left;width:45px;margin-right:35px;}
+.minhaimg{border-radius:100px;width:45px;height:45px;float:left;margin-top:-4px;}
+.nome{margin-top:12px;margin-bottom:0px;float:left;margin-right:0px;color:#00688B;font-size:16px;margin-left:-20px;}
+#meunome{font-size:14px;width:100px;margin-left:5px;margin-top:8px;}
+.simbolo{width:80px;margin:2px;float:right;margin-top:10px;}
+
+
+.areaperfil{
+		background: -moz-linear-gradient(#79CDCD,#458B74);
+		background: -webkit-linear-gradient(#79CDCD,#458B74);
+		background: -o-linear-gradient(#79CDCD,#458B74);
+	width:260px;border-style:solid;border-radius:15px;border-color:#43CD80;border-width:2px;height:425px;padding-left:2px;padding-right:2px;margin-left:5px;}
+#areaficha{background-color:#66CDAA;border-color:white;width:240px;padding:3px;font-size:15px;}
+.perfil{height:160px;width:160px;border-radius:100px;border-color:white;border-style:dashed;cursor:help;}
+.nome2{float:left;margin-left:60px;color:black;background-color:skyblue;font-family:arial black;font-size:10px;margin-right:-20px;border-radius:4px;border-style:dashed;}
+.confirmarnome{height:20px;margin-left:10px;}
+
+.envioimg{background-color:}
+.btnconcluir{margin-top:5px;font-size:20px;background-color:limegreen;color:white;}
+.btnenviarimg{background-color:orange;border-style:inset;border-color:Salmon;}
+
+
+#menulogin{	position: absolute;top:160px;left:540px;width:260px;height:140px;background-color:white;border:none;border-radius:20px;
+			background: -moz-linear-gradient(#fff, #999);
+			background: -webkit-linear-gradient(#fff, #999);
+			background: -o-linear-gradient(#fff, #999);
+			}
+
+body{background-color:#7FFFD4;}
+.statusbar{background-color:#66CDAA;}
+
+	.corpo{
+		font-family:Cooper Black;
+	   color:black;		
+	   margin-top:50px;
+	   width:830px;
+	   margin-left:60px;
+	   margin-right:60px;
+	   margin-bottom:50px;
+	   border-radius:8px;
+	   border-color:black;
+		background: #FFFF00;
+		background: -moz-linear-gradient(#00CDCD,#1C1C1C);
+		background: -webkit-linear-gradient(#00CDCD,#1C1C1C);
+		background: -o-linear-gradient(#00CDCD,#1C1C1C);
+		box-shadow: 2px 2px 8px black;
+	   }	

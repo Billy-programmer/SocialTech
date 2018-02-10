@@ -1,0 +1,149 @@
+
+/*----inicio da status bar----*/
+
+.statusbar{background-color:LightSkyBlue;
+			border-color:black;
+			border-radius:5px;
+			border-bottom-width:4px;
+			position:fixed;
+			top:0px;
+			left:-2px;
+			right:-2px;
+			padding:5px;}
+			.icone{width:160px;height:40px;float:left;margin:0px;margin-top:5px;}
+			.mudafundo{border-radius:5px;float:right;background-color:SteelBlue;border-color:black;font-family:Cooper Black;color:#c0c0c0;}
+	.opmudarfundo{position:fixed;top:65px;right:0px;float:right;}
+.login{width:100px;float:right;}
+
+	.entrar{
+		border-style:ridge;
+		border-color:MedSpringGreen;
+		border-width:3px;
+		float:right;
+		margin:1px;
+		padding:5px;	
+		font-size:23px;
+		background-color:SteelBlue;
+		border-radius:5px;
+		font-family:Cooper Black;}
+
+
+		
+	.menu{
+		border-style:ridge;
+		border-color:MedSpringGreen;
+		border-width:3px;
+		float:left;
+		margin:1px;
+		padding:5px;	
+		font-size:23px;
+		background-color:SteelBlue;
+		border-radius:5px;
+		font-family:Cooper Black;}
+		.menu:hover{font-size:25px;}
+		.menu a:hover{color:LightBlue;}
+		
+	.menuselect{
+		border-style:ridge;
+		border-color:MedSpringGreen;
+		border-width:3px;
+		float:left;
+		margin:1px;
+		padding:6px;	
+		font-size:27px;
+		background-color:DarkTurquoise;
+		border-radius:6px;
+		font-family:Cooper Black;
+
+		}
+		.menuselect a{color:white;}
+		.menuselect a:hover{color:CadetBlue;}
+	.inicio{margin-left:300px;}		
+
+/*----fim da status bar----*/
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+
+/*--Fim da janela--*/
+
+.rodape{width:30px;float:right;margin-right:20px;margin-top:2px;}
+
+body{background-color:white;color:white;}
+h1{}
+img{}
+label{border-color:black;}
+a{text-decoration:none;}
+a:link {color:white;}
+a:visited{color:white;}
+a:active{font-size:20px;margin:3px;}
+footer{background-color:black;color:white;border-radius:5px;font-size:7px;padding:2px;position:fixed;bottom:0px;left:0px;right:0px;}
+.footer{background-color:black;color:white;border-radius:5px;}
+
+
+	.corpo{
+		font-family:Cooper Black;
+	   color:black;		
+	   margin-top:50px;
+	   width:970px;
+	   margin-left:60px;
+	   margin-right:60px;
+	   margin-bottom:50px;
+	   border-radius:5px;
+	   border-color:black;
+	   background-color:white;
+	   }	
+	   
+.propagandaesq{float:left;background-color:black;width:100px;height:500px;margin-top:50px;padding:0px;border-color:black;}
+.propagandadir{float:right;background-color:black;width:100px;height:500px;margin-top:50px;padding:0px;border-color:black;}
